@@ -1,0 +1,76 @@
+/* Hot pink */
+
+a,
+.btn {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.btn-primary:hover {
+    background-color: #c2185b;
+    border-color: #c2185b;
+}
+
+/* Material UI */
+
+.card {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    border: none;
+}
+
+.card-header {
+    background-color: #424242;
+    color: #ffffff;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.form-control {
+    background-color: #3c3c3c;
+    border-color: #e91e63;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #4f4f4f;
+    color: #ffffff;
+}
+
+/* Spacing */
+
+.container {
+    margin-top: 2rem;
+}
+
+.btn {
+    margin-right: 1rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.feedback {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feedback:last-child {
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
