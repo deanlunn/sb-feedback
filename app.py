@@ -104,7 +104,7 @@ def show_user(username):
 
 @app.route("/users/<username>/delete", methods=["POST"])
 def remove_user(username):
-    """Remove user nad redirect to login."""
+    """Remove user and redirect to login."""
 
     if "username" not in session or username != session['username']:
         raise Unauthorized()
