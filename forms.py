@@ -43,21 +43,21 @@ class RegisterForm(FlaskForm):
         validators=[InputRequired(), Length(max=30)],
     )
 
-    def validate(self, extra_validators=None):
-        """Validate form."""
+    # def validate(self, extra_validators=None):
+    #     """Validate form."""
 
-        initial_validation = super(RegisterForm, self).validate()
+    #     initial_validation = super(RegisterForm, self).validate()
 
-        if not initial_validation:
-            return False
+    #     if not initial_validation:
+    #         return False
 
-        existing_user = User.query.filter_by(username=self.username.data).first()
+    #     existing_user = User.query.filter_by(username=self.username.data).first()
 
-        if existing_user:
-            self.username.errors.append("Username already taken")
-            return False
+    #     if existing_user:
+    #         self.username.errors.append("Username already taken")
+    #         return False
 
-        return True
+    #     return True
 
 
 
